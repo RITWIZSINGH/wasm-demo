@@ -7,11 +7,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@assemblyscript/loader": "^0.28.9",
     "core-js": "^3.8.3",
     "vue": "^3.2.13"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-service": "~5.0.0"
+    "@vue/cli-service": "~5.0.0",
+    "assemblyscript": "^0.28.9"
   }
 }
