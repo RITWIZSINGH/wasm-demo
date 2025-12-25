@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build:wasm": "node scripts/build-wasm.js",
+    "serve": "npm run build:wasm && vue-cli-service serve",
+    "build": "npm run build:wasm && vue-cli-service build"
   },
   "dependencies": {
     "@assemblyscript/loader": "^0.28.9",
